@@ -16,6 +16,7 @@ A desktop assistant that can:
 - search local structured records (and later files)
 - propose a daily plan with citations to source records
 - take a small set of reversible, confirmed actions (create a time block, complete a task, open an app)
+- manipulate a desktop for display and UI, structured around widgets which are created in a structured format.
 
 It does **not** fetch or parse provider JSON inside the model loop. It does **not** use RAG as the source of calendar, task, or other structured truth.
 
@@ -29,7 +30,7 @@ Every capability uses: observe local state → reason over scoped context → pr
 | Derived write | `propose_daily_plan`, save a note | Audited; reversible |
 | External action | create event, complete task, open app, edit file | Confirm; allowlisted; idempotent where possible |
 
-Credentials stay in the OS keychain. SQL, raw JSON, and secrets never enter the prompt. Ingested documents and web content are untrusted.
+SQL, raw JSON, and secrets never enter the prompt. Ingested documents and web content are untrusted.
 
 ## First useful version
 
@@ -37,4 +38,4 @@ Credentials stay in the OS keychain. SQL, raw JSON, and secrets never enter the 
 - Five or fewer read tools
 - A proposed daily plan with citations
 - No unapproved changes
-- No mapping UI, generic dashboard, or broad application control
+- Ability to manipulate a set of 2-5 prebuilt widgets.
