@@ -6,15 +6,15 @@ The product is a **custom personal assistant**: conversation, search, planning a
 
 | Question | Canonical doc |
 |---|---|
-| What to build, in what order | This file |
+| Project vision | This file |
 
 ## Goal
 
 A desktop assistant that can:
 
-- discuss tasks, calendar, and goals in conversation
-- search local structured records (and later files)
-- propose a daily plan with citations to source records
+- discuss tasks, calendar, ingested information, and goals in conversation.
+- search local structured records (later files), deterministically ingest online sources.
+- propose a daily plan with citations to source records.
 - take a small set of reversible, confirmed actions (create a time block, complete a task, open an app)
 - manipulate a desktop for display and UI, structured around widgets which are created in a structured format.
 
