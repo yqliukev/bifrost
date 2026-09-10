@@ -7,6 +7,7 @@ The product is a **custom personal assistant**: conversation, search, planning a
 | Question | Canonical doc |
 |---|---|
 | Project vision | This file |
+| Learning Roadmap | [roadmap](roadmap.md) |
 
 ## Goal
 
