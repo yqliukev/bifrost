@@ -7,7 +7,9 @@ The product is a **custom personal assistant**: conversation, search, planning a
 | Question | Canonical doc |
 |---|---|
 | Project vision | This file |
-| Learning Roadmap | [roadmap](roadmap.md) |
+| Retired Roadmap | [roadmap](roadmap.md) |
+| Learning roadmap | [build roadmap](build-roadmap.md) |
+| Sample architectural plan (not being implemented) | [agent plan](./plans/bifrost_agentic_assistant_72142ad7.plan.md) | 
 
 ## Goal
 
